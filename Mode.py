@@ -8,7 +8,7 @@ with open("../DataSets/SOCR-HeightWeight.csv", newline="")as f:
 filedata.pop(0)
 newdata=[]
 for i in range(len(filedata)):
-    num=filedata[i][1]
+    num=filedata[i][2]
     newdata.append(float(num))
 
 n=len(newdata)
